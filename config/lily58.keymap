@@ -53,10 +53,10 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp C_POWER  &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4                     &trans           &trans          &trans           &trans    &kp INS    &kp DEL
-&kp CAPS     &trans          &trans           &trans        &trans           &trans                           &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp UP    &trans     &trans
-&trans       &kp C_VOL_DN    &kp C_VOLUME_UP  &kp C_MUTE    &kp KP_MULTIPLY  &kp KP_DIVIDE                    &kp HOME         &kp PAGE_UP     &kp LEFT         &kp DOWN  &kp RIGHT  &trans
-&trans       &kp C_PREVIOUS  &kp C_PLAY       &kp C_NEXT    &kp KP_PLUS      &kp KP_MINUS   &trans    &trans  &kp END          &kp PAGE_DOWN   &trans           &trans    &trans     &trans
+&kp C_POWER  &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4                     &trans           &trans          &kp MINUS        &kp EQUAL  &kp INS    &kp DEL
+&kp CAPS     &trans          &trans           &trans        &trans           &trans                           &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp UP     &trans     &trans
+&trans       &kp C_VOL_DN    &kp C_VOLUME_UP  &kp C_MUTE    &kp KP_MULTIPLY  &kp KP_DIVIDE                    &kp HOME         &kp PAGE_UP     &kp LEFT         &kp DOWN   &kp RIGHT  &trans
+&trans       &kp C_PREVIOUS  &kp C_PLAY       &kp C_NEXT    &kp KP_PLUS      &kp KP_MINUS   &trans    &trans  &kp END          &kp PAGE_DOWN   &trans           &trans     &trans     &trans
                                               &trans        &trans           &trans         &trans    &trans  &trans           &trans          &trans
             >;
 
